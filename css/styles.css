@@ -1,0 +1,459 @@
+
+	
+
+/*para resoluciones menores a 1000px*/
+@media screen and (min-width: 0px) and (max-width: 1000px) {   
+ 	.slider{
+		width:80%;
+	 	height:300px;
+	 	float:right;
+	 	margin-right: 10%;
+	}
+	.google{
+		width:80%; 
+		height:300px; 
+		float:left;  
+		margin-left:10%;
+	}
+
+	.googles{
+		width:80%; 
+		height:700px; 
+		float:left;  
+		margin-left:5%;
+	}
+	/* Contenedor */
+	#contenedor {
+		margin: 0 auto;
+		width: 95%;
+
+	}
+	#sidebar {
+		width: 95%;
+		margin:0 auto;
+	}
+	p{font-size: 180%;}
+	li{font-size: 120%;}
+ }
+
+/*para resolucion mayores de 1000px*/
+@media screen and (min-width: 1000px) {   
+	 
+ 	.slider{
+		width:43%;
+	 	height:300px;
+	 	float:right;
+	 	margin-right: 5%;
+	 }
+	.google{
+		width:43%; 
+		height:300px; 
+		float:left;  
+		margin-left:5%;
+	}
+
+	.googles{
+		width:80%; 
+		height:500px; 
+		float:left;  
+		margin-left:5%;
+	}
+
+	#contenedor {
+		float: right;
+		width: 80%;
+
+	}
+	#sidebar {
+		width: 20%;
+		margin-right: 0%;
+		float: left;
+	}
+}
+
+.mySlides{
+	width:100%; 
+	height:300px;
+
+}
+
+
+
+h1, h2, h3 {
+	color: white;
+	letter-spacing: -1px;
+}
+
+h1, h1, h2, h2 {
+	text-decoration: none;
+}
+
+h1 :hover, h2:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 28px;
+}
+h4{
+	font-size: 28px;
+	color: white;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	line-height: 190%;
+	color: white;
+}
+li{
+	color: white;
+}
+
+ul, ol {
+	margin-left: 2em;
+	color: white;
+	
+}
+
+/* Logo */
+
+#logo {
+	width: 754px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: white;
+}
+
+#logo h1 {
+	padding: 40px 5px 0 20px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+#logo h2 {
+	padding: 0px 0 0 20px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+}
+
+/* Header */
+
+#header {
+	width: 754px;
+	margin: 0 auto;
+}
+
+
+/* Pagina */
+
+
+#pagina {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+.post {
+}
+
+.post .title {
+	margin: 0;
+	border-bottom: 1px dotted #D6C9BF;
+}
+
+.post h1.title {
+	padding: 5px 0  0 5px;
+	height: 40px;
+	font-size: 2.4em;	
+}
+
+.post .title a:hover {
+	text-decoration: none;
+}
+
+.post .entry {
+	margin: 0px;
+	padding: 20px 20px;
+}
+
+.post .meta {
+	height: 35px;
+	margin: 15px 0 20px 0;
+	padding: 15px 0 0 20px;
+	line-height: normal;
+	background: url(../images/img05.jpg) repeat-x left top;
+}
+
+.post a {
+	color: white;
+}
+
+/* Sidebar para dar estilo a las listas */
+
+#sidebar {
+	float: left;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 20px;
+}
+
+#sidebar li ul {
+	padding-left: 25px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 5px 10px;
+	border-bottom: 1px dotted #D6C9BF;
+}
+
+#sidebar li h2 {
+	margin: 0 0 1em 0;
+	padding: 15px 0  5px 15px;
+	height: 30px;
+	text-transform: lowercase;
+	font-size: 28px;
+	letter-spacing: -1px;
+}
+
+#sidebar li p {
+	padding: 0 20px;
+
+}
+
+/* creacion de Calendar con el fin de hacerlo compatible*/
+
+#sidebar #calendar {
+	padding-left: : 0;
+}
+
+#calendar caption {
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 100%;
+	height: 80px;
+	background: #FFFFFF url(../images/img01.gif) repeat-x top left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+#footer a {
+font-size: 10px;
+}
+
+
+#boton{
+
+	text-align: center;
+}
+
+
+
+#formularios{
+border-collapse: collapse;
+	float: left;
+
+/*background-color: #4472E0;*/
+padding: 5px;
+
+	margin-left:  33%;
+}
+
+#boton{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+
+#login{
+	margin top: 4%;
+	margin-left: 32%;
+	margin-right: 32%;
+
+}
+fieldset{
+	background-color: #4472E0;
+}
+#login form{
+	width:100%;
+	text-align: center;
+}
+#logindatos{
+	border: none;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+#login .img{
+	margin: 18px;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	border-radius: 0px;
+
+}
+.terminos{
+	display: inline;
+}
+p.terminos{
+	font-size: 11px;
+	color: white;
+
+}
+#login input{
+	border-radius: 15px;
+	width: 90%;
+	height: 35px;
+	margin: 10px;
+
+}
+#login input.terminos{
+	width: 20px;
+	height: 20px;
+
+}
+.control{
+	padding-left: 45px;
+	font-size: 18px;
+
+}
+#boton{
+	background-color: rgba(164,179,87,1);
+	width: 30%;
+	height: 40px;
+	color: #fff;
+	font-style: century Gothic;
+	margin-top: 3px;
+	margin-left: : 185px;
+	margin-bottom: 3px;
+	border-radius: 10px;
+
+
+}
+.formdatos{
+	color: #fff;
+}
+.formdatos form{
+	width: 100%;
+	height: 500px;
+	border-radius: 15px;
+	padding: 22px;
+	margin: 20px auto;
+}
+.formdatos fieldset{
+	font-family: century Gothic;
+	padding: 12px;
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+	border-radius: 10px;
+	height: 332px; 
+	margin-left: : 13px; 
+}
+.formdatos img{
+	float: left;
+	width: 90px;
+	height: 70px;
+	border-radius: 5px;
+	margin: 0px 22px;
+}
+.formdatos button{
+	margin-top: 3px;
+	margin-left: 830px;
+
+}
+.formdatos p{
+	margin-top: 15%;
+	padding-top: 15%;
+	font-size: 48px;
+	text-align: center;
+
+
+}
+form{
+	font-family: century Gothic;
+
+
+}
+.control:required{
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px #808080;
+
+}
+.control:invalid{
+	border-radius: 15px;
+}
+
+h3{
+	text-align: center;
+}
+
+h1{
+	padding-top: 6px;
+	color: #fff;
+}
+input#coment{
+	height: 250px;
+}
+#footer{
+	background-color: black;
+}
+
+input{
+	background-color: gray;
+}
+
